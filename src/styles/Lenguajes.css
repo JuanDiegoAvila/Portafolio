@@ -1,0 +1,61 @@
+.lenguajes-container {
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-top: 100px;
+}
+
+.lenguajes-container h1{
+  font-family: 'RobotoMono';
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 150px;
+  align-self: center;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+.lenguajes-items-container {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+} 
+
+.lenguaje-individual {
+  width: 10vw;
+  height: 30vh;
+  background-color: #DDDDDD;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.imagen-lenguaje {
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lenguaje-individual h2{
+  font-family: 'RobotoMono';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.lenguaje-individual h2:hover{
+  cursor:context-menu;
+}
