@@ -1,0 +1,52 @@
+.sobre-mi-container {
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.sobre-mi-container h1{
+  font-family: 'RobotoMono';
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 150px;
+  align-self: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.sobre-mi-container h1:hover{
+  cursor:context-menu;
+}
+
+.sobre-mi-container h2{
+  font-family: 'RobotoMono';
+  font-weight: 400;
+  font-size: 30px;
+  align-self: center;
+}
+
+.sobre-mi-container h2:hover{
+  cursor:context-menu;
+}
+
+.sobre-mi-container p{
+  font-family: 'RobotoMono';
+  font-weight: 200;
+  font-size: 20px;
+  align-self: center;
+}
+
+.sobre-mi-container p:hover{
+  cursor:context-menu;
+}
+
+.sobre-mi-texto {
+  width: 80vw;
+  height: auto;
+  align-self: center;
+}

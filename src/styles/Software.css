@@ -45,7 +45,7 @@
 
 .imagen-software {
   width: 35vw;
-  height: 40vh;
+  height: 100%;
   background-size: contain;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -57,7 +57,7 @@
   margin-right: 22px;
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 100%;
   max-height: 40vh;
 }
 
@@ -97,4 +97,6 @@
   border-bottom: 0px;
   text-decoration: none;
   margin-top: 15px;
+  margin-bottom: 20px;
+  
 }
