@@ -1,0 +1,100 @@
+.software-container {
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.software-container h1:hover{
+  cursor:context-menu;
+}
+
+.software-container h2:hover{
+  cursor:context-menu;
+}
+
+.software-container p:hover{
+  cursor:context-menu;
+}
+
+.software-container h1{
+  font-family: 'RobotoMono';
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 150px;
+  align-self: center;
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 100px;
+}
+
+.software-item{
+  width: 70vw;
+  height: auto;
+  background-color: #DDDDDD;
+  align-self: center;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+}
+
+.imagen-software {
+  width: 35vw;
+  height: 40vh;
+  background-size: contain;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.contenido-software{
+  margin-left: 40px;
+  width: 40vw;
+  margin-right: 22px;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  max-height: 40vh;
+}
+
+.titulo-software{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.imagen-titulo-software{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contenido-software h2{
+  font-family: 'RobotoMono';
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.contenido-software p{
+  font-family: 'RobotoMono';
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.contenido-software a {
+  font-family: 'RobotoMono';
+  font-weight: 700;
+  font-size: 15px;
+  color: blue;
+  border-bottom: 0px;
+  text-decoration: none;
+  margin-top: 15px;
+}

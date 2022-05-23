@@ -20,6 +20,14 @@
   src: url("/public/fonts/RobotoMono-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'RobotoMono';
+  font-style:  normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/public/fonts/RobotoMono-ExtraLight.ttf") format("truetype");
+}
+
 .general-container{
   width: 100vw;
   position: absolute;

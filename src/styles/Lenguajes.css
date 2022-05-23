@@ -1,6 +1,6 @@
 .lenguajes-container {
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -8,7 +8,7 @@
   overflow: hidden;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  margin-top: 100px;
+
 }
 
 .lenguajes-container h1{
@@ -18,6 +18,10 @@
   line-height: 150px;
   align-self: center;
   border-bottom: 1px solid #CCCCCC;
+}
+
+.lenguajes-container h1:hover{
+  cursor:context-menu;
 }
 
 .lenguajes-items-container {
