@@ -37,3 +37,21 @@
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #DDDDDD; 
+  border-radius: 6px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #BBBBBB; 
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AAAAAA; 
+}

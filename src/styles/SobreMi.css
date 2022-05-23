@@ -10,6 +10,30 @@
   overflow-wrap: break-word;
 }
 
+.barra-sobre-mi{
+  width: 100%;
+  height: 30px;
+  background-color: #AAAAAA;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.botones-salida{
+  height: 20px;
+  width: 80px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sobre-mi-texto{
+  background-color: black;
+  border-radius: 6px;
+}
+
 .sobre-mi-container h1{
   font-family: 'RobotoMono';
   font-weight: 100;
@@ -24,8 +48,11 @@
 }
 
 .sobre-mi-container h2{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #EEEEEE;
   font-family: 'RobotoMono';
-  font-weight: 400;
+  font-weight: 500;
   font-size: 30px;
   align-self: center;
 }
@@ -35,6 +62,9 @@
 }
 
 .sobre-mi-container p{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #EEEEEE;
   font-family: 'RobotoMono';
   font-weight: 200;
   font-size: 20px;
