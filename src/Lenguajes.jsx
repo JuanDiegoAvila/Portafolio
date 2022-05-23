@@ -13,13 +13,13 @@ const Lenguajes = () => {
   const lenguajes = ['Java', 'JavaScript', 'C++', 'C#', 'Python', 'SQL', 'HTML', 'CSS']
   const imagenes = [Java, JavaScript, CM, CS, Python, SQL, HTML, CSS]
 
-  return(
+  return (
     <div className="lenguajes-container">
       <h1>Lenguajes de Programación</h1>
       <div className="lenguajes-items-container">
         {
           lenguajes.map((lenguaje, index) => (
-            <div key={lenguaje} className="lenguaje-individual"> 
+            <div key={lenguaje} className="lenguaje-individual">
               <div className="imagen-lenguaje" style={{ backgroundImage: `url(${imagenes[index]})` }} />
               <h2>{lenguaje}</h2>
             </div>
@@ -28,7 +28,6 @@ const Lenguajes = () => {
       </div>
     </div>
   )
-
 }
 
 export default Lenguajes
