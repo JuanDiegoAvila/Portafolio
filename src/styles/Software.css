@@ -1,6 +1,6 @@
 .software-container {
   width: 100vw;
-  height: 90vh;
+  height: fit-content;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -34,19 +34,24 @@
 
 .software-item{
   width: 70vw;
-  height: auto;
+  height: 300px;
   background-color: #DDDDDD;
   align-self: center;
   border-radius: 6px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
 }
 
 .imagen-software {
   width: 35vw;
   height: 100%;
-  background-size: contain;
+  justify-self: center;
+  align-self: center;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
@@ -86,17 +91,17 @@
   font-family: 'RobotoMono';
   font-weight: 200;
   font-size: 20px;
-  margin-top: 0px;
+  margin-top: -15px;
 }
 
 .contenido-software a {
   font-family: 'RobotoMono';
+  width: fit-content;
   font-weight: 700;
   font-size: 15px;
-  color: blue;
-  border-bottom: 0px;
+  color: #000080;
+}
+
+.contenido-software a:hover{
   text-decoration: none;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  
 }

@@ -1,5 +1,5 @@
 import './styles/Lenguajes.css'
-
+import 'aos/dist/aos.css'
 import CS from '../public/img/cs.png'
 import CM from '../public/img/cp.png'
 import CSS from '../public/img/css.png'
@@ -19,7 +19,7 @@ const Lenguajes = () => {
       <div className="lenguajes-items-container">
         {
           lenguajes.map((lenguaje, index) => (
-            <div key={lenguaje} className="lenguaje-individual">
+            <div data-aos="fade-up" key={lenguaje} className="lenguaje-individual">
               <div className="imagen-lenguaje" style={{ backgroundImage: `url(${imagenes[index]})` }} />
               <h2>{lenguaje}</h2>
             </div>
