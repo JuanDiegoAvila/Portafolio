@@ -14,7 +14,7 @@ const Lenguajes = () => {
   const imagenes = [Java, JavaScript, CM, CS, Python, SQL, HTML, CSS]
 
   return (
-    <div className="lenguajes-container">
+    <div id="lenguajes" className="lenguajes-container">
       <h1>Lenguajes de Programación</h1>
       <div className="lenguajes-items-container">
         {

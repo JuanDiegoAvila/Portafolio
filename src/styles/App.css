@@ -36,6 +36,7 @@
   background-color: #EEEEEE;
   overflow-y: scroll;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -54,4 +55,8 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #AAAAAA; 
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -2,7 +2,7 @@ import './styles/SobreMi.css'
 import Botones from '../public/img/buttons.png'
 
 const SobreMi = () => (
-  <div className="sobre-mi-container">
+  <div id="sobre-mi" className="sobre-mi-container">
     <h1>Sobre Mí</h1>
     <div className="sobre-mi-texto">
       <div className="barra-sobre-mi">

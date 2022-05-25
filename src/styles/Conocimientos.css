@@ -1,0 +1,33 @@
+.conocimientos-container {
+  width: 100vw;
+  height: fit-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.conocimientos-container h1:hover{
+  cursor:context-menu;
+}
+
+.conocimientos-container h2:hover{
+  cursor:context-menu;
+}
+
+.conocimientos-container p:hover{
+  cursor:context-menu;
+}
+
+.conocimientos-container h1{
+  font-family: 'RobotoMono';
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 150px;
+  align-self: center;
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 100px;
+}
