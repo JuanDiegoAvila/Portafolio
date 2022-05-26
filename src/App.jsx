@@ -7,6 +7,8 @@ import Lenguajes from './Lenguajes'
 import Software from './Software'
 import SobreMi from './SobreMi'
 import Conocimientos from './Conocimientos'
+import Proyectos from './Proyectos'
+import Coneccion from './Coneccion'
 
 const App = () => {
   useEffect(() => {
@@ -17,12 +19,13 @@ const App = () => {
   }, [])
   return (
     <div id="app" className="general-container">
-      {/* <Navegacion /> */}
+      <Coneccion />
       <Intro />
       <SobreMi />
       <Lenguajes />
       <Software />
       <Conocimientos />
+      <Proyectos />
     </div>
   )
 }

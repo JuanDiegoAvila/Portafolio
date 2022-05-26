@@ -100,8 +100,9 @@
   font-weight: 700;
   font-size: 15px;
   color: #000080;
+  text-decoration: none;
 }
 
 .contenido-software a:hover{
-  text-decoration: none;
+  text-decoration: underline;
 }

@@ -1,0 +1,22 @@
+.coneccion-container{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 70px;
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1em 2em -0.5em rgb(0 0 0 / 35%);
+}
+
+.image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
