@@ -7,7 +7,6 @@ import Lenguajes from './Lenguajes'
 import Software from './Software'
 import SobreMi from './SobreMi'
 import Conocimientos from './Conocimientos'
-import Navegacion from './Navegacion'
 
 const App = () => {
   useEffect(() => {
