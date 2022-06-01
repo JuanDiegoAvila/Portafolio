@@ -53,6 +53,14 @@ const Conocimientos = () => (
           className="barra-6"
         />
       </div>
+      <div className="fila">
+        <div className="titulo">Express</div>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="5s"
+          className="barra-7"
+        />
+      </div>
       <div className="fila-x">
         <div>Principiante</div>
         <div>Intermedio</div>
